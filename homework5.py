@@ -1,0 +1,11 @@
+immutable_var="moloko",2,True,[6,7,8]
+print(immutable_var)
+immutable_var[3]=6
+mutable_list=["apple",2,True,[6,7,8]]
+print(mutable_list)
+mutable_list[3]=6
+mutable_list.append(False)
+print(mutable_list)
+mutable_list.extend('LoL')
+mutable_list.reverse()
+print(mutable_list)
